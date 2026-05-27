@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 // ── LIFF SDK (ห้องครัว) ──────────────────────────────────────
 // ⚠️  ใส่ค่าจริงตรงนี้เมื่อ deploy จริง
 const KITCHEN_LIFF_ID = "2010215471-lIXBiOnA"; // LINE Login channel: ขาหมูนาย ต. ห้องครัว
-const STAFF_USER_IDS  = []; // เช่น ["Uabc123", "Uxyz789"] — ถ้าว่างจะผ่านหมด (dev mode)
+const STAFF_USER_IDS  = ["U9025835c156dea5c66eb802edd029d4b"]; // Admin: ขาหมูนาย ต.
 
 let _kitchenLiffReady = false;
 let _kitchenProfile   = null; // { userId, displayName, pictureUrl }
